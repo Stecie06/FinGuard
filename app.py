@@ -2,59 +2,88 @@ import streamlit as st
 import pandas as pd
 import joblib
 from datetime import datetime
-import csv
 import os
+import csv
 
-# Load model and label encoder
-model = joblib.load('models/model_severity.pkl')
-le_severity = joblib.load('models/label_encoder_severity.pkl')
+# Load AI model and label encoder
+model = joblib.load("models/model_severity.pkl")
+label_encoder = joblib.load("models/label_encoder_severity.pkl")
 
-st.title("🏦 Real-Time Threat Detection for Financial Institutions")
+# Bank registry (you can expand this list)
+banks = ["Bank of Africa", "Equity Bank", "EcoBank", "Standard Bank", "Access Bank"]
 
-st.markdown("""
-Enter incident details. If the AI predicts a significant threat,  
-🛡️ **the system will automatically log it without requiring bank action.**
-""")
+incident_types = ['Phishing', 'Data Breach', 'Malware', 'DDoS', 'Ransomware']
+cities = ['Mumbai', 'Delhi', 'Bangalore', 'Kolkata', 'Ahmedabad']
+incident_map = {name: i for i, name in enumerate(incident_types)}
+city_map = {name: i for i, name in enumerate(cities)}
 
-# Input form
-year = st.number_input("📅 Year", 2000, 2030, 2023)
-day = st.number_input("📆 Day of Month", 1, 31, 15)
-amount = st.number_input("💸 Amount Lost (MUR)", 0)
-incident_type = st.selectbox("🚨 Incident Type", ['Phishing', 'Data Breach', 'Malware', 'DDoS', 'Ransomware'])
-city = st.selectbox("🏙️ City", ['Mumbai', 'Delhi', 'Bangalore', 'Kolkata', 'Ahmedabad'])
+# Streamlit UI
+st.title("🔐 Central Bank Threat Intelligence & Incident Reporting System")
 
-# Encode
-incident_map = {'Phishing': 0, 'Data Breach': 1, 'Malware': 2, 'DDoS': 3, 'Ransomware': 4}
-city_map = {'Mumbai': 0, 'Delhi': 1, 'Bangalore': 2, 'Kolkata': 3, 'Ahmedabad': 4}
-features = [[year, day, amount, incident_map[incident_type], city_map[city]]]
+st.markdown("### 🏦 Report a Cyber Incident")
 
-# Predict and auto-report
-if st.button("🧠 Predict & Auto-Report"):
-    prediction = model.predict(features)
-    severity = le_severity.inverse_transform(prediction)[0]
+with st.form("incident_form"):
+    bank_name = st.selectbox("Affected Institution", banks)
+    year = st.number_input("Year", 2020, 2030, 2023)
+    day = st.number_input("Day of the Month", 1, 31, 15)
+    amount = st.number_input("Estimated Amount Lost (MUR)", 0)
+    incident_type = st.selectbox("Type of Incident", incident_types)
+    city = st.selectbox("City of Occurrence", cities)
+    submitted = st.form_submit_button("Predict & Report Incident")
 
-    st.warning(f"🔥 Predicted Severity: **{severity}**")
+if submitted:
+    encoded_input = [[
+        year,
+        day,
+        amount,
+        incident_map[incident_type],
+        city_map[city]
+    ]]
+    pred = model.predict(encoded_input)
+    severity = label_encoder.inverse_transform(pred)[0]
 
-    # Automatically log if attack detected
-    if severity in ['Medium', 'High', 'Critical']:
-        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        row = [now, year, day, amount, incident_type, city, severity]
-        file_exists = os.path.exists("report.csv")
+    st.warning(f"🔎 Predicted Severity: **{severity}**")
 
-        with open("report.csv", "a", newline="") as f:
+    full_log = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), bank_name, year, day, amount, incident_type, city, severity]
+    full_log_file = "central_reports.csv"
+    if not os.path.exists(full_log_file):
+        with open(full_log_file, "w", newline="") as f:
             writer = csv.writer(f)
-            if not file_exists:
-                writer.writerow(['Timestamp', 'Year', 'Day', 'Amount_Lost_INR', 'Incident_Type', 'City', 'Predicted_Severity'])
-            writer.writerow(row)
+            writer.writerow(["Timestamp", "Bank", "Year", "Day", "Amount_Lost_INR", "Incident_Type", "City", "Predicted_Severity"])
+    with open(full_log_file, "a", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(full_log)
 
-        st.success("✅ Incident automatically reported.")
+    # Broadcast alert if needed
+    if severity in ['Medium', 'High', 'Critical']:
+        broadcast_log = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), bank_name, incident_type, severity]
+        broadcast_file = "broadcast_alerts.csv"
+        if not os.path.exists(broadcast_file):
+            with open(broadcast_file, "w", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerow(["Timestamp", "Institution", "Incident_Type", "Severity"])
+        with open(broadcast_file, "a", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(broadcast_log)
+
+        st.success("✅ Attack reported to Central Bank and broadcasted to other banks.")
     else:
-        st.info("🟢 No significant threat detected. No report logged.")
+        st.info("🟢 No major threat. Logged quietly for records.")
 
-# Show report
-if st.button("📄 View Logged Reports"):
-    if os.path.exists("report.csv"):
-        df = pd.read_csv("report.csv")
+# Optional report views
+st.markdown("---")
+st.markdown("### 📄 Central Reports & Broadcast Log")
+
+if st.button("📊 View Central Bank Report"):
+    if os.path.exists("central_reports.csv"):
+        df = pd.read_csv("central_reports.csv")
         st.dataframe(df)
     else:
-        st.info("No incidents reported yet.")
+        st.info("No reports yet.")
+
+if st.button("📡 View Broadcast Alerts"):
+    if os.path.exists("broadcast_alerts.csv"):
+        df = pd.read_csv("broadcast_alerts.csv")
+        st.dataframe(df)
+    else:
+        st.info("No alerts broadcasted yet.")

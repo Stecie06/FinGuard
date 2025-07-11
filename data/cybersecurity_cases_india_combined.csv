@@ -1,4 +1,4 @@
-Year,Day,Amount_Lost_INR,Incident_Type,City,Severity
+Year,Day,Amount_Lost_UMR,Incident_Type,City,Severity
 2023,5,95000,Phishing,Mumbai,Medium
 2022,12,520000,Data Breach,Delhi,Critical
 2021,22,120000,Malware,Kolkata,High

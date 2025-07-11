@@ -1,41 +1,42 @@
+# 💡 PART 1: TRAIN THE AI MODEL
+# File: train_model.py
+
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
 import joblib
 
-# 1. Load the dataset
-df = pd.read_csv('data/cybersecurity_cases_india_combined.csv')
+# Load dataset
+df = pd.read_csv("data/threat_dataset_bank_only.csv")
 
-# 2. Encode text fields into numbers
-le_type = LabelEncoder()
-le_city = LabelEncoder()
-le_severity = LabelEncoder()
+# Encode categorical features
+incident_encoder = LabelEncoder()
+city_encoder = LabelEncoder()
+severity_encoder = LabelEncoder()
 
-df['Incident_Type'] = le_type.fit_transform(df['Incident_Type'])
-df['City'] = le_city.fit_transform(df['City'])
-df['Severity'] = le_severity.fit_transform(df['Severity'])
+df['Incident_Type'] = incident_encoder.fit_transform(df['Incident_Type'])
+df['City'] = city_encoder.fit_transform(df['City'])
+df['Severity'] = severity_encoder.fit_transform(df['Severity'])
 
-# 3. Save label encoder (to decode predictions later)
-joblib.dump(le_severity, 'models/label_encoder_severity.pkl')
-
-# 4. Select features and label
+# Features and target
 X = df[['Year', 'Day', 'Amount_Lost_INR', 'Incident_Type', 'City']]
 y = df['Severity']
 
-# 5. Split into training and testing data
+# Train/test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# 6. Train the model
-model = RandomForestClassifier()
+# Train model
+model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
-# 7. Save the model
-joblib.dump(model, 'models/model_severity.pkl')
-print("✅ Model trained and saved.")
-
-# 8. Evaluate model
+# Evaluate
 y_pred = model.predict(X_test)
-print("\n📊 Severity Prediction Report:\n")
 print(classification_report(y_test, y_pred))
+
+# Save model and encoders
+joblib.dump(model, "models/model_severity.pkl")
+joblib.dump(severity_encoder, "models/label_encoder_severity.pkl")
+
+print("✅ Model trained and saved.")
