@@ -1,0 +1,96 @@
+Year,Day,Amount_Lost_INR,Incident_Type,City,Severity
+2023,5,95000,Phishing,Mumbai,Medium
+2022,12,520000,Data Breach,Delhi,Critical
+2021,22,120000,Malware,Kolkata,High
+2023,18,33000,Ransomware,Bangalore,Low
+2022,7,285000,DDoS,Ahmedabad,High
+2023,10,75000,Phishing,Delhi,Medium
+2023,15,310000,Data Breach,Mumbai,Critical
+2021,8,46000,Malware,Kolkata,Low
+2022,25,190000,Phishing,Bangalore,High
+2023,3,220000,Ransomware,Ahmedabad,High
+2022,19,78000,DDoS,Mumbai,Medium
+2021,20,480000,Data Breach,Delhi,Critical
+2023,11,95000,Malware,Kolkata,Medium
+2022,17,230000,Phishing,Delhi,High
+2021,29,34000,Phishing,Bangalore,Low
+2023,6,415000,Data Breach,Mumbai,Critical
+2022,14,89000,Malware,Ahmedabad,Medium
+2023,13,560000,DDoS,Kolkata,Critical
+2021,27,25000,Ransomware,Delhi,Low
+2022,9,168000,Phishing,Bangalore,High
+2023,30,48000,Malware,Mumbai,Low
+2023,4,210000,DDoS,Delhi,High
+2021,15,370000,Data Breach,Kolkata,Critical
+2022,22,60000,Ransomware,Bangalore,Medium
+2023,17,105000,Phishing,Ahmedabad,Medium
+2022,28,400000,Malware,Mumbai,Critical
+2021,11,33000,DDoS,Delhi,Low
+2023,25,135000,Phishing,Kolkata,High
+2022,16,210000,Data Breach,Bangalore,High
+2023,8,46000,Ransomware,Ahmedabad,Low
+2021,24,320000,Malware,Mumbai,Critical
+2022,13,57000,Phishing,Delhi,Medium
+2023,19,290000,DDoS,Kolkata,High
+2022,5,43000,Ransomware,Bangalore,Low
+2021,26,190000,Phishing,Ahmedabad,High
+2023,9,65000,Malware,Mumbai,Medium
+2022,21,500000,Data Breach,Delhi,Critical
+2023,14,280000,DDoS,Kolkata,High
+2021,7,40000,Ransomware,Bangalore,Low
+2022,24,115000,Phishing,Ahmedabad,Medium
+2023,1,350000,Malware,Mumbai,Critical
+2022,20,70000,DDoS,Delhi,Medium
+2023,27,45000,Ransomware,Kolkata,Low
+2021,10,250000,Phishing,Bangalore,High
+2022,18,190000,Data Breach,Ahmedabad,High
+2023,23,60000,Malware,Mumbai,Medium
+2021,28,320000,DDoS,Delhi,Critical
+2022,6,47000,Ransomware,Kolkata,Low
+2023,16,200000,Phishing,Bangalore,High
+2022,29,90000,Malware,Ahmedabad,Medium
+2021,12,280000,Data Breach,Mumbai,Critical
+2023,22,53000,DDoS,Delhi,Low
+2022,8,130000,Ransomware,Kolkata,Medium
+2023,20,380000,Phishing,Bangalore,Critical
+2021,14,60000,Malware,Ahmedabad,Medium
+2022,30,175000,Data Breach,Mumbai,High
+2023,2,49000,DDoS,Delhi,Low
+2021,21,310000,Ransomware,Kolkata,Critical
+2022,4,80000,Phishing,Bangalore,Medium
+2023,7,110000,Malware,Ahmedabad,High
+2022,23,260000,Data Breach,Mumbai,High
+2021,9,43000,DDoS,Delhi,Low
+2023,24,67000,Ransomware,Kolkata,Medium
+2022,15,205000,Phishing,Bangalore,High
+2023,26,380000,Malware,Ahmedabad,Critical
+2021,13,59000,Data Breach,Mumbai,Medium
+2022,3,47000,DDoS,Delhi,Low
+2023,21,150000,Ransomware,Kolkata,High
+2022,27,240000,Phishing,Bangalore,High
+2021,19,39000,Malware,Ahmedabad,Low
+2023,28,560000,Data Breach,Mumbai,Critical
+2022,11,72000,DDoS,Delhi,Medium
+2023,5,68000,Ransomware,Kolkata,Medium
+2021,16,300000,Phishing,Bangalore,Critical
+2022,10,98000,Malware,Ahmedabad,Medium
+2023,29,410000,Data Breach,Mumbai,Critical
+2021,23,35000,DDoS,Delhi,Low
+2022,26,125000,Ransomware,Kolkata,High
+2023,12,180000,Phishing,Bangalore,High
+2022,1,320000,Malware,Ahmedabad,Critical
+2023,18,46000,Data Breach,Mumbai,Low
+2021,25,210000,DDoS,Delhi,High
+2022,14,90000,Ransomware,Kolkata,Medium
+2023,6,270000,Phishing,Bangalore,High
+2021,30,55000,Malware,Ahmedabad,Medium
+2022,17,400000,Data Breach,Mumbai,Critical
+2023,11,39000,DDoS,Delhi,Low
+2021,22,260000,Ransomware,Kolkata,High
+2022,19,105000,Phishing,Bangalore,Medium
+2023,9,310000,Malware,Ahmedabad,Critical
+2021,8,47000,Data Breach,Mumbai,Low
+2022,13,195000,DDoS,Delhi,High
+2023,27,45000,Ransomware,Kolkata,Low
+2021,20,210000,Phishing,Bangalore,High
+2022,7,85000,Malware,Ahmedabad,Medium
