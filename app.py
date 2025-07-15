@@ -1,89 +1,75 @@
 import streamlit as st
 import pandas as pd
-import joblib
-from datetime import datetime
 import os
-import csv
 
-# Load AI model and label encoder
-model = joblib.load("models/model_severity.pkl")
-label_encoder = joblib.load("models/label_encoder_severity.pkl")
+st.set_page_config(page_title="Bank Incident Monitoring", layout="wide")
+st.title("📊 Cyber Threat Intelligence Dashboard")
 
-# Bank registry (you can expand this list)
-banks = ["Bank of Africa", "Equity Bank", "EcoBank", "Standard Bank", "Access Bank"]
+# Load data
+log_path = "logs/central_reports.csv"
+alert_path = "logs/broadcast_alerts.csv"
+client_log_path = "logs/client_attempts.csv"
 
-incident_types = ['Phishing', 'Data Breach', 'Malware', 'DDoS', 'Ransomware']
-cities = ['Mumbai', 'Delhi', 'Bangalore', 'Kolkata', 'Ahmedabad']
-incident_map = {name: i for i, name in enumerate(incident_types)}
-city_map = {name: i for i, name in enumerate(cities)}
+if not os.path.exists(log_path):
+    st.warning("No central log found. Run the AI monitoring first.")
+    st.stop()
 
-# Streamlit UI
-st.title("🔐 Central Bank Threat Intelligence & Incident Reporting System")
+log_df = pd.read_csv(log_path)
+alert_df = pd.read_csv(alert_path) if os.path.exists(alert_path) else pd.DataFrame()
+client_df = pd.read_csv(client_log_path) if os.path.exists(client_log_path) else pd.DataFrame()
 
-st.markdown("### 🏦 Report a Cyber Incident")
+# Clean and prepare severity values for sidebar filter
+severity_values = log_df["Predicted_Severity"].dropna().astype(str).unique().tolist()
+severity_values = sorted(severity_values)
 
-with st.form("incident_form"):
-    bank_name = st.selectbox("Affected Institution", banks)
-    year = st.number_input("Year", 2020, 2030, 2023)
-    day = st.number_input("Day of the Month", 1, 31, 15)
-    amount = st.number_input("Estimated Amount Lost (MUR)", 0)
-    incident_type = st.selectbox("Type of Incident", incident_types)
-    city = st.selectbox("City of Occurrence", cities)
-    submitted = st.form_submit_button("Predict & Report Incident")
+# Sidebar Filters
+st.sidebar.header("🔍 Filters")
+selected_bank = st.sidebar.selectbox("Filter by Bank", ["All"] + sorted(log_df["Bank"].dropna().unique().tolist()))
+selected_type = st.sidebar.selectbox("Filter by Incident Type", ["All"] + sorted(log_df["Incident_Type"].dropna().unique().tolist()))
+selected_severity = st.sidebar.selectbox("Filter by Severity", ["All"] + severity_values)
 
-if submitted:
-    encoded_input = [[
-        year,
-        day,
-        amount,
-        incident_map[incident_type],
-        city_map[city]
-    ]]
-    pred = model.predict(encoded_input)
-    severity = label_encoder.inverse_transform(pred)[0]
+# Filtering dataframe
+filtered = log_df.copy()
+if selected_bank != "All":
+    filtered = filtered[filtered["Bank"] == selected_bank]
+if selected_type != "All":
+    filtered = filtered[filtered["Incident_Type"] == selected_type]
+if selected_severity != "All":
+    filtered = filtered[filtered["Predicted_Severity"].astype(str) == selected_severity]
 
-    st.warning(f"🔎 Predicted Severity: **{severity}**")
+# Central Reports
+st.subheader("📄 Central Threat Reports")
+st.dataframe(filtered.sort_values("Timestamp", ascending=False), use_container_width=True)
 
-    full_log = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), bank_name, year, day, amount, incident_type, city, severity]
-    full_log_file = "central_reports.csv"
-    if not os.path.exists(full_log_file):
-        with open(full_log_file, "w", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(["Timestamp", "Bank", "Year", "Day", "Amount_Lost_INR", "Incident_Type", "City", "Predicted_Severity"])
-    with open(full_log_file, "a", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(full_log)
+# Broadcast Alerts
+st.subheader("🚨 Broadcast Alerts")
+if alert_df.empty:
+    st.info("No broadcast alerts generated yet.")
+else:
+    st.dataframe(alert_df.tail(10).sort_values("Timestamp", ascending=False), use_container_width=True)
 
-    # Broadcast alert if needed
-    if severity in ['Medium', 'High', 'Critical']:
-        broadcast_log = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), bank_name, incident_type, severity]
-        broadcast_file = "broadcast_alerts.csv"
-        if not os.path.exists(broadcast_file):
-            with open(broadcast_file, "w", newline="") as f:
-                writer = csv.writer(f)
-                writer.writerow(["Timestamp", "Institution", "Incident_Type", "Severity"])
-        with open(broadcast_file, "a", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(broadcast_log)
+# Client Attempt Logs
+st.subheader("👥 Client Access Attempts")
+if client_df.empty:
+    st.info("No client access attempts recorded yet.")
+else:
+    st.dataframe(client_df.tail(15).sort_values("Timestamp", ascending=False), use_container_width=True)
 
-        st.success("✅ Attack reported to Central Bank and broadcasted to other banks.")
-    else:
-        st.info("🟢 No major threat. Logged quietly for records.")
-
-# Optional report views
-st.markdown("---")
-st.markdown("### 📄 Central Reports & Broadcast Log")
-
-if st.button("📊 View Central Bank Report"):
-    if os.path.exists("central_reports.csv"):
-        df = pd.read_csv("central_reports.csv")
-        st.dataframe(df)
-    else:
-        st.info("No reports yet.")
-
-if st.button("📡 View Broadcast Alerts"):
-    if os.path.exists("broadcast_alerts.csv"):
-        df = pd.read_csv("broadcast_alerts.csv")
-        st.dataframe(df)
-    else:
-        st.info("No alerts broadcasted yet.")
+# Live Alert Monitor
+st.subheader("🔴 Live Alerts Monitor")
+if not alert_df.empty:
+    for i, row in alert_df.tail(5).iterrows():
+        severity = row.get('Severity', 'Unknown')
+        bank = row.get('Bank', 'Unknown Bank')
+        timestamp = row.get('Timestamp', 'Unknown Time')
+        incident = row.get('Incident_Type', 'Unknown Incident')
+        
+        color = "red" if severity == "Critical" else ("orange" if severity == "High" else "yellow")
+        
+        st.markdown(
+            f"<div style='background-color:{color};padding:8px;border-radius:5px;margin:5px 0'>"
+            f"<b>{timestamp} | {bank}</b>: {incident} - {severity}</div>",
+            unsafe_allow_html=True
+        )
+else:
+    st.success("✅ All clear. No critical incidents to broadcast.")

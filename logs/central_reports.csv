@@ -1,0 +1,440 @@
+Timestamp,Bank,Year,Day,Amount_Lost_MUR,Incident_Type,City,Predicted_Severity
+2025-07-11 12:29:02,Bank of Africa,2021,24,313389,Data Breach,Delhi,Critical
+2025-07-11 12:30:59,Bank of Africa,2021,24,313389,Data Breach,Delhi,Critical
+2025-07-11 12:30:59,Equity Bank,2023,4,596858,Phishing,Ahmedabad,Critical
+2025-07-11 12:30:59,Standard Bank,2021,1,123246,Data Breach,Delhi,Medium
+2025-07-11 12:30:59,Access Bank,2023,1,233496,Ransomware,Kolkata,High
+2025-07-11 12:30:59,Equity Bank,2022,19,316704,Phishing,Delhi,Critical
+2025-07-11 12:30:59,Standard Bank,2022,9,188032,Data Breach,Bangalore,High
+2025-07-11 12:30:59,Bank of Africa,2021,13,126414,Malware,Bangalore,Medium
+2025-07-11 12:30:59,Access Bank,2022,26,70561,DDoS,Ahmedabad,Medium
+2025-07-11 12:30:59,Bank of Africa,2022,3,332419,Ransomware,Bangalore,Critical
+2025-07-11 12:30:59,Access Bank,2021,23,97933,Phishing,Delhi,Medium
+2025-07-11 12:30:59,EcoBank,2021,28,269098,Phishing,Kolkata,High
+2025-07-11 12:30:59,EcoBank,2022,21,407554,Data Breach,Bangalore,Critical
+2025-07-11 12:30:59,EcoBank,2021,22,304946,Phishing,Ahmedabad,Critical
+2025-07-11 12:30:59,Equity Bank,2023,24,281702,Data Breach,Kolkata,High
+2025-07-11 12:30:59,Standard Bank,2022,21,255283,Malware,Mumbai,High
+2025-07-11 12:30:59,Equity Bank,2021,26,355776,DDoS,Bangalore,Critical
+2025-07-11 12:30:59,Bank of Africa,2021,19,354963,Data Breach,Kolkata,Critical
+2025-07-11 12:30:59,Standard Bank,2023,15,174811,Malware,Delhi,High
+2025-07-11 12:30:59,Equity Bank,2023,18,590158,Malware,Ahmedabad,Critical
+2025-07-11 12:30:59,Standard Bank,2023,13,404580,Data Breach,Delhi,Critical
+2025-07-11 12:30:59,Access Bank,2022,3,74405,Phishing,Delhi,Medium
+2025-07-11 12:30:59,Equity Bank,2023,14,91613,DDoS,Kolkata,Medium
+2025-07-11 12:30:59,Access Bank,2022,17,288626,Ransomware,Mumbai,Critical
+2025-07-11 12:30:59,Bank of Africa,2023,18,304786,Malware,Mumbai,Critical
+2025-07-11 12:30:59,EcoBank,2022,6,500763,Phishing,Bangalore,Critical
+2025-07-11 12:30:59,Access Bank,2021,17,136579,Malware,Ahmedabad,High
+2025-07-11 12:30:59,Access Bank,2021,5,417077,Data Breach,Ahmedabad,Critical
+2025-07-11 12:30:59,Access Bank,2021,20,364902,DDoS,Mumbai,Critical
+2025-07-11 12:30:59,Bank of Africa,2022,27,347451,Data Breach,Mumbai,Critical
+2025-07-11 12:30:59,Equity Bank,2023,3,114814,DDoS,Mumbai,Medium
+2025-07-11 12:31:00,Access Bank,2021,5,523369,Ransomware,Delhi,Critical
+2025-07-11 12:31:00,EcoBank,2023,28,468692,Data Breach,Ahmedabad,Critical
+2025-07-11 12:31:00,Equity Bank,2023,10,443373,Malware,Kolkata,Critical
+2025-07-11 12:31:00,Access Bank,2022,4,284947,Data Breach,Mumbai,Critical
+2025-07-11 12:31:00,EcoBank,2021,19,266292,Ransomware,Delhi,High
+2025-07-11 12:31:00,Bank of Africa,2021,23,86733,Data Breach,Mumbai,Medium
+2025-07-11 12:31:00,Bank of Africa,2022,3,564131,Data Breach,Bangalore,Critical
+2025-07-11 12:31:00,Standard Bank,2021,18,163739,Ransomware,Ahmedabad,High
+2025-07-11 12:31:00,Standard Bank,2021,26,520948,DDoS,Delhi,Critical
+2025-07-11 12:31:00,Bank of Africa,2021,22,476989,Malware,Kolkata,Critical
+2025-07-11 12:31:00,Standard Bank,2022,28,81802,Phishing,Mumbai,Medium
+2025-07-11 12:31:00,Standard Bank,2023,11,139576,Data Breach,Delhi,High
+2025-07-11 12:31:00,Equity Bank,2023,15,171991,DDoS,Delhi,High
+2025-07-11 12:31:00,EcoBank,2022,8,104046,DDoS,Ahmedabad,Medium
+2025-07-11 12:31:00,Bank of Africa,2021,21,591847,Phishing,Mumbai,Critical
+2025-07-11 12:31:00,Equity Bank,2021,14,534231,DDoS,Delhi,Critical
+2025-07-11 12:31:00,Standard Bank,2021,6,422382,Phishing,Kolkata,Critical
+2025-07-11 12:31:00,EcoBank,2022,10,468555,Ransomware,Kolkata,Critical
+2025-07-11 12:31:00,Equity Bank,2021,10,253275,Phishing,Ahmedabad,High
+2025-07-11 12:31:00,Access Bank,2021,24,353838,Phishing,Mumbai,Critical
+2025-07-11 12:31:00,Access Bank,2022,17,581926,Data Breach,Mumbai,Critical
+2025-07-11 12:31:00,Access Bank,2021,28,219851,Phishing,Ahmedabad,High
+2025-07-11 12:31:00,Bank of Africa,2023,28,271629,DDoS,Mumbai,High
+2025-07-11 12:31:00,Access Bank,2021,19,66672,Ransomware,Mumbai,Medium
+2025-07-11 12:31:00,Standard Bank,2023,19,573177,Malware,Bangalore,Critical
+2025-07-11 12:31:00,Equity Bank,2023,23,354445,Data Breach,Bangalore,Critical
+2025-07-11 12:31:00,Standard Bank,2021,22,339569,DDoS,Bangalore,Critical
+2025-07-11 12:31:00,Bank of Africa,2021,15,129837,Phishing,Ahmedabad,High
+2025-07-11 12:31:00,Equity Bank,2023,9,163890,Malware,Mumbai,High
+2025-07-11 12:31:00,Equity Bank,2022,10,190409,DDoS,Ahmedabad,High
+2025-07-11 12:31:00,EcoBank,2023,26,579634,Phishing,Ahmedabad,Critical
+2025-07-11 12:31:00,EcoBank,2023,4,165814,Malware,Mumbai,High
+2025-07-11 12:31:00,Bank of Africa,2023,18,187998,Malware,Bangalore,High
+2025-07-11 12:31:00,Access Bank,2021,23,384536,Data Breach,Bangalore,Critical
+2025-07-11 12:31:00,Access Bank,2022,9,78266,Phishing,Kolkata,Medium
+2025-07-11 12:31:00,EcoBank,2021,1,374759,Data Breach,Bangalore,Critical
+2025-07-11 12:31:00,Equity Bank,2023,15,473462,Ransomware,Mumbai,Critical
+2025-07-11 12:31:00,Bank of Africa,2021,23,181294,Ransomware,Mumbai,High
+2025-07-11 12:31:00,EcoBank,2023,18,180287,DDoS,Delhi,High
+2025-07-11 12:31:00,Bank of Africa,2022,12,66832,Malware,Delhi,Medium
+2025-07-11 12:31:00,Equity Bank,2023,4,395858,Ransomware,Kolkata,Critical
+2025-07-11 12:31:00,Access Bank,2023,5,273237,Data Breach,Delhi,High
+2025-07-11 12:31:00,Standard Bank,2021,6,373321,DDoS,Delhi,Critical
+2025-07-11 12:31:00,EcoBank,2021,26,138346,DDoS,Mumbai,High
+2025-07-11 12:31:00,Standard Bank,2021,7,507662,Malware,Bangalore,Critical
+2025-07-11 12:31:00,Equity Bank,2021,1,227511,DDoS,Bangalore,High
+2025-07-11 12:31:00,EcoBank,2021,25,317683,Malware,Ahmedabad,Critical
+2025-07-11 12:31:00,Standard Bank,2023,27,587262,Malware,Mumbai,Critical
+2025-07-11 12:31:00,Bank of Africa,2022,6,303361,Phishing,Mumbai,Critical
+2025-07-11 12:31:00,Access Bank,2022,12,353914,DDoS,Ahmedabad,Critical
+2025-07-11 12:31:00,Access Bank,2021,13,224312,Malware,Mumbai,High
+2025-07-11 12:31:00,Standard Bank,2021,17,589607,Data Breach,Bangalore,Critical
+2025-07-11 12:31:00,Standard Bank,2021,22,371239,Ransomware,Bangalore,Critical
+2025-07-11 12:31:00,Bank of Africa,2023,10,556756,Malware,Kolkata,Critical
+2025-07-11 12:31:00,EcoBank,2022,23,335016,Ransomware,Delhi,Critical
+2025-07-11 12:31:00,Equity Bank,2022,22,422562,Data Breach,Ahmedabad,Critical
+2025-07-11 12:31:00,Access Bank,2022,13,599553,Phishing,Bangalore,Critical
+2025-07-11 12:31:00,EcoBank,2021,14,362902,DDoS,Kolkata,Critical
+2025-07-11 12:31:00,Standard Bank,2023,7,561004,DDoS,Delhi,Critical
+2025-07-11 12:31:00,Bank of Africa,2022,17,376470,Phishing,Delhi,Critical
+2025-07-11 12:31:00,EcoBank,2021,26,233802,Data Breach,Mumbai,High
+2025-07-11 12:31:00,Bank of Africa,2021,16,101365,DDoS,Kolkata,Medium
+2025-07-11 12:31:00,Access Bank,2021,23,427630,DDoS,Kolkata,Critical
+2025-07-11 12:31:00,Equity Bank,2021,21,30814,Phishing,Kolkata,Low
+2025-07-11 12:31:00,Equity Bank,2021,26,568118,DDoS,Mumbai,Critical
+2025-07-11 12:31:00,Access Bank,2021,28,152253,DDoS,Delhi,High
+2025-07-11 12:31:00,Standard Bank,2023,17,357711,DDoS,Ahmedabad,Critical
+2025-07-11 12:31:00,Access Bank,2022,27,599485,DDoS,Delhi,Critical
+2025-07-11 12:31:00,Standard Bank,2022,9,284249,Malware,Ahmedabad,Critical
+2025-07-11 12:31:00,Standard Bank,2023,8,312936,DDoS,Mumbai,Critical
+2025-07-11 12:31:00,EcoBank,2021,9,377161,Malware,Ahmedabad,Critical
+2025-07-11 12:31:00,Bank of Africa,2021,5,267495,DDoS,Delhi,High
+2025-07-11 12:31:00,Equity Bank,2021,14,452398,Malware,Ahmedabad,Critical
+2025-07-11 12:31:00,Standard Bank,2022,2,241881,DDoS,Kolkata,High
+2025-07-11 12:31:00,Access Bank,2023,1,423858,DDoS,Mumbai,Critical
+2025-07-11 12:31:00,EcoBank,2022,25,433930,DDoS,Ahmedabad,Critical
+2025-07-11 12:31:00,Access Bank,2023,8,536945,Data Breach,Bangalore,Critical
+2025-07-11 12:31:00,Standard Bank,2022,1,432746,Malware,Kolkata,Critical
+2025-07-11 12:31:00,Equity Bank,2022,5,585069,Phishing,Kolkata,Critical
+2025-07-11 12:31:00,Access Bank,2023,22,53418,Phishing,Kolkata,Low
+2025-07-11 12:31:00,Equity Bank,2022,6,77727,Malware,Kolkata,Medium
+2025-07-11 12:31:00,EcoBank,2021,15,367722,Malware,Kolkata,Critical
+2025-07-11 12:31:00,EcoBank,2022,9,110884,DDoS,Mumbai,Medium
+2025-07-11 12:31:00,Access Bank,2021,12,260113,Phishing,Mumbai,High
+2025-07-11 12:31:00,Bank of Africa,2021,7,46369,Ransomware,Delhi,Low
+2025-07-11 12:31:00,Equity Bank,2021,16,144946,Ransomware,Delhi,High
+2025-07-11 12:31:00,Standard Bank,2023,9,411814,Data Breach,Ahmedabad,Critical
+2025-07-11 12:31:00,Access Bank,2023,23,145096,Data Breach,Bangalore,High
+2025-07-11 12:31:00,Bank of Africa,2023,1,352110,Ransomware,Kolkata,Critical
+2025-07-11 12:31:00,Standard Bank,2023,7,104688,Ransomware,Delhi,Medium
+2025-07-14 20:39:45,Bank C,Delhi,566269,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Bangalore,411716,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,92877,Ransomware,Medium
+2025-07-14 20:39:45,Bank C,Ahmedabad,478617,Data Breach,Critical
+2025-07-14 20:39:45,Bank C,Delhi,551385,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,111257,Ransomware,Medium
+2025-07-14 20:39:45,Bank B,Ahmedabad,594809,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Delhi,53209,Ransomware,Low
+2025-07-14 20:39:45,Bank B,Ahmedabad,334861,Ransomware,Critical
+2025-07-14 20:39:45,Bank C,Delhi,588718,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Bangalore,345885,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Delhi,313340,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Delhi,474903,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,128852,Phishing,High
+2025-07-14 20:39:45,Bank C,Delhi,513245,Malware,Critical
+2025-07-14 20:39:45,Bank A,Mumbai,544243,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Mumbai,532037,Malware,Critical
+2025-07-14 20:39:45,Bank A,Delhi,428659,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Delhi,408313,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Mumbai,425080,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,528007,Malware,Critical
+2025-07-14 20:39:45,Bank C,Bangalore,489949,Ransomware,Critical
+2025-07-14 20:39:45,Bank C,Ahmedabad,597755,Data Breach,Critical
+2025-07-14 20:39:45,Bank A,Bangalore,521813,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Bangalore,525989,Malware,Critical
+2025-07-14 20:39:45,Bank A,Bangalore,102321,Ransomware,Medium
+2025-07-14 20:39:45,Bank A,Ahmedabad,195790,Data Breach,High
+2025-07-14 20:39:45,Bank A,Delhi,482828,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,554262,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Mumbai,539366,Data Breach,Critical
+2025-07-14 20:39:45,Bank A,Mumbai,397416,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,427793,Malware,Critical
+2025-07-14 20:39:45,Bank A,Mumbai,421134,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,551354,Phishing,Critical
+2025-07-14 20:39:45,Bank A,Delhi,511763,Ransomware,Critical
+2025-07-14 20:39:45,Bank C,Bangalore,572332,Malware,Critical
+2025-07-14 20:39:45,Bank B,Delhi,467358,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Bangalore,378491,Data Breach,Critical
+2025-07-14 20:39:45,Bank A,Mumbai,245465,Malware,High
+2025-07-14 20:39:45,Bank C,Mumbai,558433,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ahmedabad,578280,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Mumbai,353050,Phishing,Critical
+2025-07-14 20:39:45,Bank A,Bangalore,588375,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Ahmedabad,95304,Malware,Medium
+2025-07-14 20:39:45,Bank C,Delhi,587881,Phishing,Critical
+2025-07-14 20:39:45,Bank A,Bangalore,27858,Data Breach,Low
+2025-07-14 20:39:45,Bank B,Mumbai,499924,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Delhi,577896,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Ahmedabad,220831,Malware,High
+2025-07-14 20:39:45,Bank C,Bangalore,585267,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Delhi,308545,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Bangalore,540579,Malware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,566269.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Bangalore,411716.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,92877.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank C,Ahmedabad,478617.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Delhi,551385.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,111257.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank B,Ahmedabad,594809.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,53209.0,Ransomware,Low
+2025-07-14 20:26:39,Bank B,Ahmedabad,334861.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,588718.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Bangalore,345885.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Delhi,313340.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,474903.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,128852.0,Phishing,High
+2025-07-14 20:26:39,Bank C,Delhi,513245.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Mumbai,544243.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,532037.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,428659.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,408313.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,425080.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,528007.0,Malware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,489949.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,597755.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,521813.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,525989.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,102321.0,Ransomware,Medium
+2025-07-14 20:39:37,Bank A,Ahmedabad,195790.0,Data Breach,High
+2025-07-14 20:39:37,Bank A,Delhi,482828.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,554262.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,539366.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,397416.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,427793.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,421134.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,551354.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Delhi,511763.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,572332.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Delhi,467358.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,378491.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,245465.0,Malware,High
+2025-07-14 20:39:37,Bank C,Mumbai,558433.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,578280.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,353050.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,588375.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,95304.0,Malware,Medium
+2025-07-14 20:39:37,Bank C,Delhi,587881.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,27858.0,Data Breach,Low
+2025-07-14 20:39:37,Bank B,Mumbai,499924.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Delhi,577896.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,220831.0,Malware,High
+2025-07-14 20:39:37,Bank C,Bangalore,585267.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Delhi,308545.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,540579.0,Malware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,566269.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Bangalore,411716.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,92877.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank C,Ahmedabad,478617.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Delhi,551385.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,111257.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank B,Ahmedabad,594809.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,53209.0,Ransomware,Low
+2025-07-14 20:26:39,Bank B,Ahmedabad,334861.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,588718.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Bangalore,345885.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Delhi,313340.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,474903.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,128852.0,Phishing,High
+2025-07-14 20:26:39,Bank C,Delhi,513245.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Mumbai,544243.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,532037.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,428659.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,408313.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,425080.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,528007.0,Malware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,489949.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,597755.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,521813.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,525989.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,102321.0,Ransomware,Medium
+2025-07-14 20:39:37,Bank A,Ahmedabad,195790.0,Data Breach,High
+2025-07-14 20:39:37,Bank A,Delhi,482828.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,554262.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,539366.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,397416.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,427793.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,421134.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,551354.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Delhi,511763.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,572332.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Delhi,467358.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,378491.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,245465.0,Malware,High
+2025-07-14 20:39:37,Bank C,Mumbai,558433.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,578280.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,353050.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,588375.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,95304.0,Malware,Medium
+2025-07-14 20:39:37,Bank C,Delhi,587881.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,27858.0,Data Breach,Low
+2025-07-14 20:39:37,Bank B,Mumbai,499924.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Delhi,577896.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,220831.0,Malware,High
+2025-07-14 20:39:37,Bank C,Bangalore,585267.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Delhi,308545.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,540579.0,Malware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,566269.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Bangalore,411716.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,92877.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank C,Ahmedabad,478617.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Delhi,551385.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,111257.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank B,Ahmedabad,594809.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,53209.0,Ransomware,Low
+2025-07-14 20:26:39,Bank B,Ahmedabad,334861.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,588718.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Bangalore,345885.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Delhi,313340.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,474903.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,128852.0,Phishing,High
+2025-07-14 20:26:39,Bank C,Delhi,513245.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Mumbai,544243.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,532037.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,428659.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,408313.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,425080.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,528007.0,Malware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,489949.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,597755.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,521813.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,525989.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,102321.0,Ransomware,Medium
+2025-07-14 20:39:37,Bank A,Ahmedabad,195790.0,Data Breach,High
+2025-07-14 20:39:37,Bank A,Delhi,482828.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,554262.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,539366.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,397416.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,427793.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,421134.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,551354.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Delhi,511763.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,572332.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Delhi,467358.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,378491.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,245465.0,Malware,High
+2025-07-14 20:39:37,Bank C,Mumbai,558433.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,578280.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,353050.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,588375.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,95304.0,Malware,Medium
+2025-07-14 20:39:37,Bank C,Delhi,587881.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,27858.0,Data Breach,Low
+2025-07-14 20:39:37,Bank B,Mumbai,499924.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Delhi,577896.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,220831.0,Malware,High
+2025-07-14 20:39:37,Bank C,Bangalore,585267.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Delhi,308545.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,540579.0,Malware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,566269.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Bangalore,411716.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,92877.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank C,Ahmedabad,478617.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Delhi,551385.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,111257.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank B,Ahmedabad,594809.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,53209.0,Ransomware,Low
+2025-07-14 20:26:39,Bank B,Ahmedabad,334861.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,588718.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Bangalore,345885.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Delhi,313340.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,474903.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,128852.0,Phishing,High
+2025-07-14 20:26:39,Bank C,Delhi,513245.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Mumbai,544243.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,532037.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,428659.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,408313.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,425080.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,528007.0,Malware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,489949.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,597755.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,521813.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,525989.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,102321.0,Ransomware,Medium
+2025-07-14 20:39:37,Bank A,Ahmedabad,195790.0,Data Breach,High
+2025-07-14 20:39:37,Bank A,Delhi,482828.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,554262.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,539366.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,397416.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,427793.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,421134.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,551354.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Delhi,511763.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,572332.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Delhi,467358.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,378491.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,245465.0,Malware,High
+2025-07-14 20:39:37,Bank C,Mumbai,558433.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,578280.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,353050.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,588375.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,95304.0,Malware,Medium
+2025-07-14 20:39:37,Bank C,Delhi,587881.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,27858.0,Data Breach,Low
+2025-07-14 20:39:37,Bank B,Mumbai,499924.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Delhi,577896.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,220831.0,Malware,High
+2025-07-14 20:39:37,Bank C,Bangalore,585267.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Delhi,308545.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,540579.0,Malware,Critical
+2025-07-14 22:15:52,Bank A,Bangalore,75000000,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Delhi,566269.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Bangalore,411716.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,92877.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank C,Ahmedabad,478617.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Delhi,551385.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,111257.0,Ransomware,Medium
+2025-07-14 20:26:39,Bank B,Ahmedabad,594809.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,53209.0,Ransomware,Low
+2025-07-14 20:26:39,Bank B,Ahmedabad,334861.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Delhi,588718.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Bangalore,345885.0,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Delhi,313340.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,474903.0,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,128852.0,Phishing,High
+2025-07-14 20:26:39,Bank C,Delhi,513245.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Mumbai,544243.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,532037.0,Malware,Critical
+2025-07-14 20:26:39,Bank A,Delhi,428659.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Delhi,408313.0,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Mumbai,425080.0,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ahmedabad,528007.0,Malware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,489949.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,597755.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,521813.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,525989.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,102321.0,Ransomware,Medium
+2025-07-14 20:39:37,Bank A,Ahmedabad,195790.0,Data Breach,High
+2025-07-14 20:39:37,Bank A,Delhi,482828.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,554262.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,539366.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,397416.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,427793.0,Malware,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,421134.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,551354.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Delhi,511763.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Bangalore,572332.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Delhi,467358.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,378491.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Mumbai,245465.0,Malware,High
+2025-07-14 20:39:37,Bank C,Mumbai,558433.0,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ahmedabad,578280.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Mumbai,353050.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,588375.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,95304.0,Malware,Medium
+2025-07-14 20:39:37,Bank C,Delhi,587881.0,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Bangalore,27858.0,Data Breach,Low
+2025-07-14 20:39:37,Bank B,Mumbai,499924.0,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Delhi,577896.0,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Ahmedabad,220831.0,Malware,High
+2025-07-14 20:39:37,Bank C,Bangalore,585267.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Delhi,308545.0,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Bangalore,540579.0,Malware,Critical
+2025-07-14 22:15:52,Bank A,Bangalore,75000000,Data Breach,Critical
+2025-07-15 10:16:12,Bank C,Bangalore,1000000,Phishing,Critical
+2025-07-15 10:23:35,Bank B,Bangalore,20000000,Data Breach,Critical
+2025-07-15 10:23:37,Bank B,Bangalore,20000000,Data Breach,Critical
+2025-07-15 10:24:09,Bank B,Bangalore,200000000,DDoS,Critical

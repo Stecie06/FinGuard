@@ -1,0 +1,121 @@
+Bank,Year,Day,Amount_Lost_MUR,Incident_Type,City
+Bank of Africa,2021,24,313389,Data Breach,Delhi
+Equity Bank,2023,4,596858,Phishing,Ahmedabad
+Standard Bank,2021,1,123246,Data Breach,Delhi
+Access Bank,2023,1,233496,Ransomware,Kolkata
+Equity Bank,2022,19,316704,Phishing,Delhi
+Standard Bank,2022,9,188032,Data Breach,Bangalore
+Bank of Africa,2021,13,126414,Malware,Bangalore
+Access Bank,2022,26,70561,DDoS,Ahmedabad
+Bank of Africa,2022,3,332419,Ransomware,Bangalore
+Access Bank,2021,23,97933,Phishing,Delhi
+EcoBank,2021,28,269098,Phishing,Kolkata
+EcoBank,2022,21,407554,Data Breach,Bangalore
+EcoBank,2021,22,304946,Phishing,Ahmedabad
+Equity Bank,2023,24,281702,Data Breach,Kolkata
+Standard Bank,2022,21,255283,Malware,Mumbai
+Equity Bank,2021,26,355776,DDoS,Bangalore
+Bank of Africa,2021,19,354963,Data Breach,Kolkata
+Standard Bank,2023,15,174811,Malware,Delhi
+Equity Bank,2023,18,590158,Malware,Ahmedabad
+Standard Bank,2023,13,404580,Data Breach,Delhi
+Access Bank,2022,3,74405,Phishing,Delhi
+Equity Bank,2023,14,91613,DDoS,Kolkata
+Access Bank,2022,17,288626,Ransomware,Mumbai
+Bank of Africa,2023,18,304786,Malware,Mumbai
+EcoBank,2022,6,500763,Phishing,Bangalore
+Access Bank,2021,17,136579,Malware,Ahmedabad
+Access Bank,2021,5,417077,Data Breach,Ahmedabad
+Access Bank,2021,20,364902,DDoS,Mumbai
+Bank of Africa,2022,27,347451,Data Breach,Mumbai
+Equity Bank,2023,3,114814,DDoS,Mumbai
+Access Bank,2021,5,523369,Ransomware,Delhi
+EcoBank,2023,28,468692,Data Breach,Ahmedabad
+Equity Bank,2023,10,443373,Malware,Kolkata
+Access Bank,2022,4,284947,Data Breach,Mumbai
+EcoBank,2021,19,266292,Ransomware,Delhi
+Bank of Africa,2021,23,86733,Data Breach,Mumbai
+Bank of Africa,2022,3,564131,Data Breach,Bangalore
+Standard Bank,2021,18,163739,Ransomware,Ahmedabad
+Standard Bank,2021,26,520948,DDoS,Delhi
+Bank of Africa,2021,22,476989,Malware,Kolkata
+Standard Bank,2022,28,81802,Phishing,Mumbai
+Standard Bank,2023,11,139576,Data Breach,Delhi
+Equity Bank,2023,15,171991,DDoS,Delhi
+EcoBank,2022,8,104046,DDoS,Ahmedabad
+Bank of Africa,2021,21,591847,Phishing,Mumbai
+Equity Bank,2021,14,534231,DDoS,Delhi
+Standard Bank,2021,6,422382,Phishing,Kolkata
+EcoBank,2022,10,468555,Ransomware,Kolkata
+Equity Bank,2021,10,253275,Phishing,Ahmedabad
+Access Bank,2021,24,353838,Phishing,Mumbai
+Access Bank,2022,17,581926,Data Breach,Mumbai
+Access Bank,2021,28,219851,Phishing,Ahmedabad
+Bank of Africa,2023,28,271629,DDoS,Mumbai
+Access Bank,2021,19,66672,Ransomware,Mumbai
+Standard Bank,2023,19,573177,Malware,Bangalore
+Equity Bank,2023,23,354445,Data Breach,Bangalore
+Standard Bank,2021,22,339569,DDoS,Bangalore
+Bank of Africa,2021,15,129837,Phishing,Ahmedabad
+Equity Bank,2023,9,163890,Malware,Mumbai
+Equity Bank,2022,10,190409,DDoS,Ahmedabad
+EcoBank,2023,26,579634,Phishing,Ahmedabad
+EcoBank,2023,4,165814,Malware,Mumbai
+Bank of Africa,2023,18,187998,Malware,Bangalore
+Access Bank,2021,23,384536,Data Breach,Bangalore
+Access Bank,2022,9,78266,Phishing,Kolkata
+EcoBank,2021,1,374759,Data Breach,Bangalore
+Equity Bank,2023,15,473462,Ransomware,Mumbai
+Bank of Africa,2021,23,181294,Ransomware,Mumbai
+EcoBank,2023,18,180287,DDoS,Delhi
+Bank of Africa,2022,12,66832,Malware,Delhi
+Equity Bank,2023,4,395858,Ransomware,Kolkata
+Access Bank,2023,5,273237,Data Breach,Delhi
+Standard Bank,2021,6,373321,DDoS,Delhi
+EcoBank,2021,26,138346,DDoS,Mumbai
+Standard Bank,2021,7,507662,Malware,Bangalore
+Equity Bank,2021,1,227511,DDoS,Bangalore
+EcoBank,2021,25,317683,Malware,Ahmedabad
+Standard Bank,2023,27,587262,Malware,Mumbai
+Bank of Africa,2022,6,303361,Phishing,Mumbai
+Access Bank,2022,12,353914,DDoS,Ahmedabad
+Access Bank,2021,13,224312,Malware,Mumbai
+Standard Bank,2021,17,589607,Data Breach,Bangalore
+Standard Bank,2021,22,371239,Ransomware,Bangalore
+Bank of Africa,2023,10,556756,Malware,Kolkata
+EcoBank,2022,23,335016,Ransomware,Delhi
+Equity Bank,2022,22,422562,Data Breach,Ahmedabad
+Access Bank,2022,13,599553,Phishing,Bangalore
+EcoBank,2021,14,362902,DDoS,Kolkata
+Standard Bank,2023,7,561004,DDoS,Delhi
+Bank of Africa,2022,17,376470,Phishing,Delhi
+EcoBank,2021,26,233802,Data Breach,Mumbai
+Bank of Africa,2021,16,101365,DDoS,Kolkata
+Access Bank,2021,23,427630,DDoS,Kolkata
+Equity Bank,2021,21,30814,Phishing,Kolkata
+Equity Bank,2021,26,568118,DDoS,Mumbai
+Access Bank,2021,28,152253,DDoS,Delhi
+Standard Bank,2023,17,357711,DDoS,Ahmedabad
+Access Bank,2022,27,599485,DDoS,Delhi
+Standard Bank,2022,9,284249,Malware,Ahmedabad
+Standard Bank,2023,8,312936,DDoS,Mumbai
+EcoBank,2021,9,377161,Malware,Ahmedabad
+Bank of Africa,2021,5,267495,DDoS,Delhi
+Equity Bank,2021,14,452398,Malware,Ahmedabad
+Standard Bank,2022,2,241881,DDoS,Kolkata
+Access Bank,2023,1,423858,DDoS,Mumbai
+EcoBank,2022,25,433930,DDoS,Ahmedabad
+Access Bank,2023,8,536945,Data Breach,Bangalore
+Standard Bank,2022,1,432746,Malware,Kolkata
+Equity Bank,2022,5,585069,Phishing,Kolkata
+Access Bank,2023,22,53418,Phishing,Kolkata
+Equity Bank,2022,6,77727,Malware,Kolkata
+EcoBank,2021,15,367722,Malware,Kolkata
+EcoBank,2022,9,110884,DDoS,Mumbai
+Access Bank,2021,12,260113,Phishing,Mumbai
+Bank of Africa,2021,7,46369,Ransomware,Delhi
+Equity Bank,2021,16,144946,Ransomware,Delhi
+Standard Bank,2023,9,411814,Data Breach,Ahmedabad
+Access Bank,2023,23,145096,Data Breach,Bangalore
+Bank of Africa,2023,1,352110,Ransomware,Kolkata
+Standard Bank,2023,7,104688,Ransomware,Delhi

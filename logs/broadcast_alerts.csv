@@ -1,0 +1,409 @@
+Timestamp,Institution,Incident_Type,Severity
+2025-07-11 12:29:02,Bank of Africa,Data Breach,Critical
+2025-07-11 12:30:59,Bank of Africa,Data Breach,Critical
+2025-07-11 12:30:59,Equity Bank,Phishing,Critical
+2025-07-11 12:30:59,Standard Bank,Data Breach,Medium
+2025-07-11 12:30:59,Access Bank,Ransomware,High
+2025-07-11 12:30:59,Equity Bank,Phishing,Critical
+2025-07-11 12:30:59,Standard Bank,Data Breach,High
+2025-07-11 12:30:59,Bank of Africa,Malware,Medium
+2025-07-11 12:30:59,Access Bank,DDoS,Medium
+2025-07-11 12:30:59,Bank of Africa,Ransomware,Critical
+2025-07-11 12:30:59,Access Bank,Phishing,Medium
+2025-07-11 12:30:59,EcoBank,Phishing,High
+2025-07-11 12:30:59,EcoBank,Data Breach,Critical
+2025-07-11 12:30:59,EcoBank,Phishing,Critical
+2025-07-11 12:30:59,Equity Bank,Data Breach,High
+2025-07-11 12:30:59,Standard Bank,Malware,High
+2025-07-11 12:30:59,Equity Bank,DDoS,Critical
+2025-07-11 12:30:59,Bank of Africa,Data Breach,Critical
+2025-07-11 12:30:59,Standard Bank,Malware,High
+2025-07-11 12:30:59,Equity Bank,Malware,Critical
+2025-07-11 12:30:59,Standard Bank,Data Breach,Critical
+2025-07-11 12:30:59,Access Bank,Phishing,Medium
+2025-07-11 12:30:59,Equity Bank,DDoS,Medium
+2025-07-11 12:30:59,Access Bank,Ransomware,Critical
+2025-07-11 12:30:59,Bank of Africa,Malware,Critical
+2025-07-11 12:30:59,EcoBank,Phishing,Critical
+2025-07-11 12:30:59,Access Bank,Malware,High
+2025-07-11 12:30:59,Access Bank,Data Breach,Critical
+2025-07-11 12:30:59,Access Bank,DDoS,Critical
+2025-07-11 12:30:59,Bank of Africa,Data Breach,Critical
+2025-07-11 12:30:59,Equity Bank,DDoS,Medium
+2025-07-11 12:31:00,Access Bank,Ransomware,Critical
+2025-07-11 12:31:00,EcoBank,Data Breach,Critical
+2025-07-11 12:31:00,Equity Bank,Malware,Critical
+2025-07-11 12:31:00,Access Bank,Data Breach,Critical
+2025-07-11 12:31:00,EcoBank,Ransomware,High
+2025-07-11 12:31:00,Bank of Africa,Data Breach,Medium
+2025-07-11 12:31:00,Bank of Africa,Data Breach,Critical
+2025-07-11 12:31:00,Standard Bank,Ransomware,High
+2025-07-11 12:31:00,Standard Bank,DDoS,Critical
+2025-07-11 12:31:00,Bank of Africa,Malware,Critical
+2025-07-11 12:31:00,Standard Bank,Phishing,Medium
+2025-07-11 12:31:00,Standard Bank,Data Breach,High
+2025-07-11 12:31:00,Equity Bank,DDoS,High
+2025-07-11 12:31:00,EcoBank,DDoS,Medium
+2025-07-11 12:31:00,Bank of Africa,Phishing,Critical
+2025-07-11 12:31:00,Equity Bank,DDoS,Critical
+2025-07-11 12:31:00,Standard Bank,Phishing,Critical
+2025-07-11 12:31:00,EcoBank,Ransomware,Critical
+2025-07-11 12:31:00,Equity Bank,Phishing,High
+2025-07-11 12:31:00,Access Bank,Phishing,Critical
+2025-07-11 12:31:00,Access Bank,Data Breach,Critical
+2025-07-11 12:31:00,Access Bank,Phishing,High
+2025-07-11 12:31:00,Bank of Africa,DDoS,High
+2025-07-11 12:31:00,Access Bank,Ransomware,Medium
+2025-07-11 12:31:00,Standard Bank,Malware,Critical
+2025-07-11 12:31:00,Equity Bank,Data Breach,Critical
+2025-07-11 12:31:00,Standard Bank,DDoS,Critical
+2025-07-11 12:31:00,Bank of Africa,Phishing,High
+2025-07-11 12:31:00,Equity Bank,Malware,High
+2025-07-11 12:31:00,Equity Bank,DDoS,High
+2025-07-11 12:31:00,EcoBank,Phishing,Critical
+2025-07-11 12:31:00,EcoBank,Malware,High
+2025-07-11 12:31:00,Bank of Africa,Malware,High
+2025-07-11 12:31:00,Access Bank,Data Breach,Critical
+2025-07-11 12:31:00,Access Bank,Phishing,Medium
+2025-07-11 12:31:00,EcoBank,Data Breach,Critical
+2025-07-11 12:31:00,Equity Bank,Ransomware,Critical
+2025-07-11 12:31:00,Bank of Africa,Ransomware,High
+2025-07-11 12:31:00,EcoBank,DDoS,High
+2025-07-11 12:31:00,Bank of Africa,Malware,Medium
+2025-07-11 12:31:00,Equity Bank,Ransomware,Critical
+2025-07-11 12:31:00,Access Bank,Data Breach,High
+2025-07-11 12:31:00,Standard Bank,DDoS,Critical
+2025-07-11 12:31:00,EcoBank,DDoS,High
+2025-07-11 12:31:00,Standard Bank,Malware,Critical
+2025-07-11 12:31:00,Equity Bank,DDoS,High
+2025-07-11 12:31:00,EcoBank,Malware,Critical
+2025-07-11 12:31:00,Standard Bank,Malware,Critical
+2025-07-11 12:31:00,Bank of Africa,Phishing,Critical
+2025-07-11 12:31:00,Access Bank,DDoS,Critical
+2025-07-11 12:31:00,Access Bank,Malware,High
+2025-07-11 12:31:00,Standard Bank,Data Breach,Critical
+2025-07-11 12:31:00,Standard Bank,Ransomware,Critical
+2025-07-11 12:31:00,Bank of Africa,Malware,Critical
+2025-07-11 12:31:00,EcoBank,Ransomware,Critical
+2025-07-11 12:31:00,Equity Bank,Data Breach,Critical
+2025-07-11 12:31:00,Access Bank,Phishing,Critical
+2025-07-11 12:31:00,EcoBank,DDoS,Critical
+2025-07-11 12:31:00,Standard Bank,DDoS,Critical
+2025-07-11 12:31:00,Bank of Africa,Phishing,Critical
+2025-07-11 12:31:00,EcoBank,Data Breach,High
+2025-07-11 12:31:00,Bank of Africa,DDoS,Medium
+2025-07-11 12:31:00,Access Bank,DDoS,Critical
+2025-07-11 12:31:00,Equity Bank,DDoS,Critical
+2025-07-11 12:31:00,Access Bank,DDoS,High
+2025-07-11 12:31:00,Standard Bank,DDoS,Critical
+2025-07-11 12:31:00,Access Bank,DDoS,Critical
+2025-07-11 12:31:00,Standard Bank,Malware,Critical
+2025-07-11 12:31:00,Standard Bank,DDoS,Critical
+2025-07-11 12:31:00,EcoBank,Malware,Critical
+2025-07-11 12:31:00,Bank of Africa,DDoS,High
+2025-07-11 12:31:00,Equity Bank,Malware,Critical
+2025-07-11 12:31:00,Standard Bank,DDoS,High
+2025-07-11 12:31:00,Access Bank,DDoS,Critical
+2025-07-11 12:31:00,EcoBank,DDoS,Critical
+2025-07-11 12:31:00,Access Bank,Data Breach,Critical
+2025-07-11 12:31:00,Standard Bank,Malware,Critical
+2025-07-11 12:31:00,Equity Bank,Phishing,Critical
+2025-07-11 12:31:00,Equity Bank,Malware,Medium
+2025-07-11 12:31:00,EcoBank,Malware,Critical
+2025-07-11 12:31:00,EcoBank,DDoS,Medium
+2025-07-11 12:31:00,Access Bank,Phishing,High
+2025-07-11 12:31:00,Equity Bank,Ransomware,High
+2025-07-11 12:31:00,Standard Bank,Data Breach,Critical
+2025-07-11 12:31:00,Access Bank,Data Breach,High
+2025-07-11 12:31:00,Bank of Africa,Ransomware,Critical
+2025-07-11 12:31:00,Standard Bank,Ransomware,Medium
+2025-07-14 20:39:45,Bank C,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ransomware,Medium
+2025-07-14 20:39:45,Bank C,Data Breach,Critical
+2025-07-14 20:39:45,Bank C,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Ransomware,Medium
+2025-07-14 20:39:45,Bank B,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Ransomware,Critical
+2025-07-14 20:39:45,Bank C,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Phishing,High
+2025-07-14 20:39:45,Bank C,Malware,Critical
+2025-07-14 20:39:45,Bank A,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Malware,Critical
+2025-07-14 20:39:45,Bank A,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Malware,Critical
+2025-07-14 20:39:45,Bank B,Malware,Critical
+2025-07-14 20:39:45,Bank C,Ransomware,Critical
+2025-07-14 20:39:45,Bank C,Data Breach,Critical
+2025-07-14 20:39:45,Bank A,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Malware,Critical
+2025-07-14 20:39:45,Bank A,Ransomware,Medium
+2025-07-14 20:39:45,Bank A,Data Breach,High
+2025-07-14 20:39:45,Bank A,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Data Breach,Critical
+2025-07-14 20:39:45,Bank A,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Malware,Critical
+2025-07-14 20:39:45,Bank A,Malware,Critical
+2025-07-14 20:39:45,Bank B,Phishing,Critical
+2025-07-14 20:39:45,Bank A,Ransomware,Critical
+2025-07-14 20:39:45,Bank C,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Data Breach,Critical
+2025-07-14 20:39:45,Bank A,Malware,High
+2025-07-14 20:39:45,Bank C,Malware,Critical
+2025-07-14 20:39:45,Bank B,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Phishing,Critical
+2025-07-14 20:39:45,Bank A,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Malware,Medium
+2025-07-14 20:39:45,Bank C,Phishing,Critical
+2025-07-14 20:39:45,Bank B,Data Breach,Critical
+2025-07-14 20:39:45,Bank B,Phishing,Critical
+2025-07-14 20:39:45,Bank C,Malware,High
+2025-07-14 20:39:45,Bank C,Ransomware,Critical
+2025-07-14 20:39:45,Bank A,Ransomware,Critical
+2025-07-14 20:39:45,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank C,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Medium
+2025-07-14 20:26:39,Bank C,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Medium
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Phishing,High
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Medium
+2025-07-14 20:39:37,Bank A,Data Breach,High
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Malware,High
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Malware,Medium
+2025-07-14 20:39:37,Bank C,Phishing,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Malware,High
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank C,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank C,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Phishing,High
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,High
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Malware,High
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Phishing,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Malware,High
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank C,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank C,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Phishing,High
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,High
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Malware,High
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Phishing,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Malware,High
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank C,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank C,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Phishing,High
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,High
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Malware,High
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Phishing,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Malware,High
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 22:15:52,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank C,Data Breach,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Ransomware,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Phishing,Critical
+2025-07-14 20:26:39,Bank C,Ransomware,Critical
+2025-07-14 20:26:39,Bank A,Ransomware,Critical
+2025-07-14 20:26:39,Bank B,Phishing,High
+2025-07-14 20:26:39,Bank C,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank A,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Data Breach,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:26:39,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,High
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 20:39:37,Bank A,Malware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank A,Malware,High
+2025-07-14 20:39:37,Bank C,Malware,Critical
+2025-07-14 20:39:37,Bank B,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank A,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Phishing,Critical
+2025-07-14 20:39:37,Bank B,Data Breach,Critical
+2025-07-14 20:39:37,Bank B,Phishing,Critical
+2025-07-14 20:39:37,Bank C,Malware,High
+2025-07-14 20:39:37,Bank C,Ransomware,Critical
+2025-07-14 20:39:37,Bank A,Ransomware,Critical
+2025-07-14 20:39:37,Bank B,Malware,Critical
+2025-07-14 22:15:52,Bank A,Data Breach,Critical
+2025-07-15 10:16:12,Bank C,Phishing,Critical
+2025-07-15 10:23:35,Bank B,Data Breach,Critical
+2025-07-15 10:23:37,Bank B,Data Breach,Critical
+2025-07-15 10:24:09,Bank B,DDoS,Critical
